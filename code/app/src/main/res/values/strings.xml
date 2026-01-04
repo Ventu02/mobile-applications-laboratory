@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Progetto</string>
+    <string-array name="filter_options">
+        <item>Tutte</item>
+        <item>Attività non sportive</item>
+        <item>Auto</item>
+        <item>Camminata</item>
+        <item>Corsa</item>
+        <item>Bici</item>
+        <item>Altri Sport</item>
+    </string-array>
+</resources>

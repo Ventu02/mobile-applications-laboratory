@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/ActivityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome Attività"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="3dp" />
+
+    <TextView
+        android:id="@+id/ActivityDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        android:textSize="14sp"
+        android:layout_marginBottom="2dp" />
+
+    <LinearLayout
+        android:id="@+id/timer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/ActivityDuration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Durata"
+        android:textSize="14sp"
+        android:layout_marginRight="195dp"/>
+
+    <TextView
+        android:id="@+id/ActivitySteps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Passi"
+        android:textSize="14sp"
+        android:gravity="end"/>
+    </LinearLayout>
+</LinearLayout>
